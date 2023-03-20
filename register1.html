@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="style.css"
+        type="text/css">
+     </head>
+     <body>
+        <div class="main">
+        <div class="register">
+            <h2><center><b><u>REGISTRATION FORM</u></b></center></h2>
+            <form action="successfull.html">
+                <label>First Name:</label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter your name">
+                <br><br>
+                <label>Hall ticket:</label><br>
+                <input type="text" name="fname" id="name" placeholder="Hall ticket number">
+                <br><br>
+                <label>Gender:</label>
+                <br>
+                &nbsp;
+                <input type="radio" value="Male">Male
+                 &nbsp;&nbsp;
+                <input type="radio" value="Female">Female 
+                &nbsp;&nbsp;
+                <br><br>
+                <label>Email:</label><br>
+                <input type="text" name="email" id="name" placeholder="Enter your valid email">
+                <br><br>
+                <label>Branch:</label><br>
+                <select>
+                    <option value="select">Select</option>
+                    <option value="AIML">AIML</option>
+                    <option value="DS">DS</option>
+                    <option value="CSE">CSE</option>
+                    <option value="CS">CS</option>
+                </select><br><br>
+                <label>Section:</label><br>
+                <select>
+                    <option value="Select">Select</option>
+                    <option value="A-SECTION">A-SECTION</option>
+                    <option value="B-SECTION">B-SECTION</option>
+                    <option value="C-SECTION">C-SECTION</option>
+                </select><br><br>
+                <label>Phone number:</label><br>
+            <input type="text" name="phone number"><br><br>
+            <label>Address:</label><br>
+            <textarea cols="40" rows="6" value="address"></textarea><br><br>
+            <input type="submit" value="submit">
+            &nbsp;&nbsp;
+            <input type="reset">
+            &nbsp;&nbsp;
+            <input id="cancelButton" onclick="canclebutton_click" type="button" value="cancel">
+            </form>
+        </div><!--end register-->
+        </div><!--end main-->
+</body>
+</html>
